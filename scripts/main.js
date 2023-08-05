@@ -124,3 +124,6 @@ function streamSetup() {
     
     document.getElementById("info").innerHTML = "Good news, <b>" + streamerName + "</b>! Seems like someone just raided your channel currently, which made your statistics extremely rise up like a mountain! All i have to say is congratulations! Keep it up!"
 }
+
+// Console logs (for debug purposes)
+console.log("This is a console log just in case if it works perfectly, thank you!")
