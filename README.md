@@ -16,7 +16,15 @@ frequently asked questions.
 
 I got inspired by Roblox's Streamer Simulator due to it's game mechanics. So i decided to get some basic ideas for the release in the future.
 
-### How did i make this?
+### How long would it take you to make this?
+
+about 5 hours, because i was figuring out how some of the functions work
+
+### How does this exactly work?
+
+just type what you want to type, and afterwards, scroll below so that you can see the outputs you had entered. one more mechanic, the stats increase over time, *imagine screenshotting the personal record*
+
+### How did you make this?
 
 I used visual studio code as my editor for coding with programming languages, like for example, **css, javascript, and html** as mentioned.
 
@@ -52,6 +60,13 @@ no one but one person.
 
 since the project is open source, you can change it.
 
-### What's in the thumbnail? 
+### Who's in the thumbnail? 
 
 what a stupid question but, it's just an osu! player named Sytho playing casually
+
+### Can i clone or fork this project?
+
+yes you can! if you want to clone this project, pleas execute this code to your terminal:
+```
+git clone https://github.com/LKTechnologies/stream-statistic-simulation
+```
