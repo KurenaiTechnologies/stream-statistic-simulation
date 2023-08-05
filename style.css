@@ -1,0 +1,135 @@
+body {
+    background-color: #FFFFFF;
+    text-align: center;
+    font-size: 15pt;
+    font-family: "Roobert";
+}
+hr {
+    opacity: 0;
+}
+#container {
+    width: 100%;
+    height: 300px;
+    overflow-x: auto;
+    overflow-y: auto;
+    border: 2px solid #000000;
+    border-radius: 25px;
+}
+#container div {
+    width: 46%;
+    height: 150px;
+    display: block;
+    font-family: "Fredoka";
+    background-color: #6441A5;
+    padding-bottom: 10px;
+    color: #FFFFFF;
+    border-radius: 20px;
+    margin: 2%
+}
+#container hr {
+    opacity: 0;
+    padding: 10px;
+}
+#container-2 {
+    text-align: left;
+    background-color: #B9A3E3;
+    border-radius: 20px;
+}
+#container-2 p {
+    margin: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#container-2 h2 {
+    margin: 10%;
+    padding-top: 10px;
+    padding-bottom: 2px;
+}
+#container-2 span {
+    font-family: "Fredoka";
+    font-weight: 1000;
+}
+#container-3 {
+    font-family: "Fredoka";
+    background-color: #DDDDDD;
+    border-radius: 25px;
+    text-align: left;
+}
+#container-3 h3, p {
+    margin: 2%;
+}
+#container-3 p {
+    padding-bottom: 5px;
+}
+#container-3 hr {
+    opacity: 0;
+}
+#container-3 img {
+    width: 95%;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+#viewers img{
+    height: 15pt;
+}
+#thumbnail {
+    position: relative;
+    width: 100%;
+}
+#viewers {
+    background-color: #FF4444;
+    top: 8px;
+    right: 16px;
+    position: absolute;
+    font-family: "Fredoka";
+    color: #FFFFFF;
+    border-radius: 100px;
+    padding: 5px;
+}
+#timedisplay {
+    background-color: #000000;
+    bottom: 8px;
+    left: 16px;
+    position: absolute;
+    font-family: "Fredoka";
+    color: #FFFFFF;
+    border-radius: 100px;
+    padding: 5px;
+}
+#livelabel {
+    background-color: #FF4444;
+    bottom: 8px;
+    right: 16px;
+    position: absolute;
+    font-family: "Roobert";
+    color: #FFFFFF;
+    border-radius: 100px;
+    padding: 5px;
+}
+#views {
+    float: left;
+}
+#totalviews {
+    float: right;
+}
+#time {
+    float: left;
+}
+#revenue {
+    float: right;
+}
+#messages {
+    float: left;
+}
+#followers {
+    float: right;
+}
+@font-face {
+    font-family: "Roobert";
+    src: url(fonts/Roobert-Regular.ttf);
+}
+@font-face {
+    font-family: "Fredoka";
+    src: url(fonts/fredoka.ttf);
+}

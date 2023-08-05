@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="scripts/main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Stream Stats Simulation</title>
+</head>
+<body onload="startTime(), streamSetup()">
+    <h1>Current Stream Info</h1>
+    <p>a simulation, yes.</p>
+    <hr>
+    <div id="container">
+        <h2>Detailed Statistics</h2>
+        <div id="views">
+            <p><b>Viewers</b></p>
+            <p id="viewcount">NaN</p>
+        </div>
+        <div id="totalviews">
+            <p><b>Total Views</b></p>
+            <p id="overallviews">NaN</p>
+        </div>
+        <hr>
+        <div id="time">
+            <p><b>Stream Time</b></p>
+            <p><span id="totaltime">NaN</span> seconds</p>
+        </div>
+        <div id="revenue">
+            <p><b>Total Revenue</b></p>
+            <p>$<span id="totalrevenue">NaN</span></p>
+        </div>
+        <hr>
+        <div id="messages">
+            <p><b>Total Stream Messages</b></p>
+            <p id="totalmessages">NaN</p>
+        </div>
+        <div id="followers">
+            <p><b>New Followers</b></p>
+            <p id="totalfollowers">NaN</p>
+        </div>
+    </div>
+    <hr>
+    <div id="container-2">
+        <hr>
+        <p id="info">
+            Getting latest stream info.... Please wait...
+        </p>
+        <hr>
+        <h2>Fun Facts</h2>
+        <p>
+            You just opened this page since <span id="overalltime">NaN</span> seconds
+        </p>
+        <p>
+            The time right now is <span id="digital">00:00:00</span>
+        </p>
+        <hr>
+    </div>
+    <div id="container-3">
+        <hr>
+        <p>Public Stream Preview</p>
+        <div id="thumbnail">
+            <img src="medias/thumbnail3.jpg">
+            <div id="viewers">
+                NaN Watching
+            </div>
+            <div id="timedisplay">
+                00:00
+            </div>
+            <div id="livelabel">
+                LIVE
+            </div>
+        </div>
+        <h3 id="stream">Untitled</h3>
+        <p id="streamer">Unknown</p>
+        <hr>
+    </div>
+    <p>Louie Kurenai @ 2023</p>
+</body>
+</html>
