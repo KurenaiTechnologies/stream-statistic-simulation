@@ -1,5 +1,7 @@
 # Streamer Stats Simulation
 
+![GitHub repo size](https://img.shields.io/github/repo-size/LKTechnologies/stream-statistic-simulation)
+
 imagine and experience how famous you are, but every second your stats rise up over time.
 
 # Story
