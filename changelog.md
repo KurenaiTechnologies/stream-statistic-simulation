@@ -4,6 +4,12 @@ logs of past changes made to the project
 
 Last Updated: August 5, 2023
 
+## Beta v1.11
+
+Changes:
+
+- Updated values
+
 ## Beta v1.1
 
 Additions:
