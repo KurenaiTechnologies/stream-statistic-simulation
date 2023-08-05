@@ -10,9 +10,7 @@ let sTime = Math.floor(Math.random() * 15000) + (x * 500);
 let sRevenue = Math.floor(Math.random() * 50000) + (x * 150);
 let sMessages = Math.floor(Math.random() * 750000) + (x * 300);
 let sFollowers = Math.floor(Math.random() * 12500) + (x * 250);
-
-// set a timeout and update the info
-setTimeout(updateInfo, 1000);
+let sSubs = Math.floor(Math.random() * 2500) + (x * 100);
 
 // set an interval that executes some functions here every second
 setInterval(() => {
@@ -21,11 +19,16 @@ setInterval(() => {
     var uRevenue = Math.floor(Math.random() * 5) + (x * 15);
     var uFollowers = Math.floor(Math.random() * 3) + (x * 7);
     var uMessages = Math.floor(Math.random() * 15) + (x * 5);
+    var uSubs = Math.floor(Math.random() * 5) + (x * 3);
+    var subsRevenue = 5;
+    var totalSubRevenue = sSubs * subsRevenue;
     
     sViews+=uViews;
     sRevenue+=uRevenue;
     sFollowers+=uFollowers;
     sMessages+=uMessages;
+    sRevenue+=totalSubRevenue;
+    sSubs+=uSubs;
     sTime+=1;
     x+=1;
     time+=1;
@@ -37,17 +40,12 @@ setInterval(() => {
     document.getElementById("totalmessages").innerHTML = abbreviateNumber(sMessages);
     document.getElementById("totalfollowers").innerHTML = abbreviateNumber(sFollowers);
     document.getElementById("overalltime").innerHTML = time;
+    document.getElementById("totalsubs").innerHTML = abbreviateNumber(sSubs);
     
     document.getElementById("viewers").innerHTML = abbreviateNumber(uViews) + " Watching";
     document.getElementById("timedisplay").innerHTML = timeConvert(sTime)
 
 }, 1000)
-
-
-// function that updates the text in the next second
-function updateInfo() {
-    document.getElementById("info").innerHTML = "Holy moly confettis in a popper! Currently, there is a channel that raided your channel just now, which made your stream and followers rise up extremely quickly! Keep it up!"
-}
 
 // function for abbreviating numbers with suffixes, for example: 1e15 = 1Qd
 function abbreviateNumber(value) {
@@ -102,7 +100,7 @@ function checkTime(i) {
 
 // a function that prompts a window where you setup two components; description and title once the page has opened
 function streamSetup() {
-    let streamName = prompt("Enter stream name please");
+    let streamName = prompt("Please enter your stream name (optional)");
     
     if (streamName != null) {
     document.getElementById("stream").innerHTML = streamName;
@@ -111,6 +109,13 @@ function streamSetup() {
     let shortDesc = prompt("Enter a short description (optional)")
     
     if (shortDesc != null) {
-        document.getElementById("streamer").innerHTML = shortDesc
+        document.getElementById("streamer").innerHTML = shortDesc;
     }
-                     }
+    let streamerName = prompt("Please enter your name (optional)")
+    
+    if (streamerName != null) {
+        document.getElementById("streamerName").innerHTML = streamerName;
+    }
+    
+    document.getElementById("info").innerHTML = "Good news, <b>" + streamerName + "</b>! Seems like someone just raided your channel currently, which made your statistics extremely rise up like a mountain! All i have to say is congratulations! Keep it up!"
+}
