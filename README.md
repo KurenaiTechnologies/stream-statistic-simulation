@@ -49,3 +49,7 @@ no one but one person.
 ### Is the thumbnail customizable?
 
 since the project is open source, you can change it.
+
+### What's in the thumbnail? 
+
+what a stupid question but, it's just an osu! player named Sytho playing casually
