@@ -1,6 +1,12 @@
 # Streamer Stats Simulation
 
-![GitHub repo size](https://img.shields.io/github/repo-size/LKTechnologies/stream-statistic-simulation)
+![GitHub repo size](https://img.shields.io/github/repo-size/LKTechnologies/stream-statistic-simulation?style=flat-square)
+![GitHub contributors](https://img.shields.io/github/contributors/LKTechnologies/stream-statistic-simulation?style=flat-square)
+![GitHub deployments](https://img.shields.io/github/deployments/LKTechnologies/stream-statistic-simulation/github-pages?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/LKTechnologies/stream-statistic-simulation?style=flat-square)
+![GitHub forks](https://img.shields.io/github/forks/LKTechnologies/stream-statistic-simulation?style=flat-square)
+
+
 
 imagine and experience how famous you are, but every second your stats rise up over time.
 
