@@ -68,7 +68,7 @@ since the project is open source, you can change it.
 
 ### Who's in the thumbnail? 
 
-what a stupid question but, it's just an osu! player named Sytho playing casually
+what a stupid question but, it's just an osu! top player named **mrekk** playing casually
 
 ### Can i clone or fork this project?
 
