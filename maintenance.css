@@ -1,0 +1,57 @@
+body {
+    font-size: 15pt;
+    background-color: #6441A5;
+    animation: colorfade 10s infinite alternate linear;
+    color: #FFFFFF;
+    text-align: center;
+    text-shadow: 0px 2px 10px #000000;
+}
+#icon {
+    width: 95%;
+}
+@keyframes colorfade {
+    0% {
+        background-color: #6441A5;
+        color: #FFFFFF;
+    }
+    10% {
+        background-color: #FFFFFF;
+        color: #6441A5;
+    }
+    20% {
+        background-color: #FFFFFF;
+        color: #6441A5;
+    }
+    30% {
+        background-color: #FFFFFF;
+        color: #6441A5;
+    }
+    40% {
+        background-color: #FFFFFF;
+        color: #6441A5;
+    }
+    50% {
+        background-color: #FFFFFF;
+        color: #6441A5;
+    }
+    60% {
+        background-color: #6441A5;
+        color: #FFFFFF;
+    }
+    70% {
+        background-color: #6441A5;
+        color: #FFFFFF;
+    }
+    80% {
+        background-color: #6441A5;
+        color: #FFFFFF;
+    }
+    90% {
+        background-color: #6441A5;
+        color: #FFFFFF;
+    }
+    100% {
+        background-color: #6441A5;
+        color: #FFFFFF;
+    }
+}
