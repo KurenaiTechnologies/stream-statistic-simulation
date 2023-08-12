@@ -39,7 +39,7 @@ setInterval(() => {
     
     document.getElementById("viewcount").innerHTML = abbreviateNumber(uViews);
     document.getElementById("overallviews").innerHTML = abbreviateNumber(sViews);
-    document.getElementById("totaltime").innerHTML = abbreviateNumber(sTime);
+    document.getElementById("totaltime").innerHTML = showMinutes(sTime);
     document.getElementById("totalrevenue").innerHTML = abbreviateNumber(sRevenue);
     document.getElementById("totalmessages").innerHTML = abbreviateNumber(sMessages);
     document.getElementById("totalfollowers").innerHTML = abbreviateNumber(sFollowers);
@@ -85,6 +85,18 @@ function timeConvert(value) {
     return minutes + ":" + seconds;
 }
 
+// Same function, but only shows up minutes
+function showMinutes(n) {
+    var min = Math.floor(n / 60);
+    var sec = n % 60;
+    
+    if (min < 1) {
+        min = "0";
+    }
+    
+    return min + " minutes";
+}
+
 // Make a function for real-time clock
 function startTime() {
   const today = new Date();
@@ -122,8 +134,5 @@ function streamSetup() {
         document.getElementById("streamerName").innerHTML = streamerName;
     }
     
-    document.getElementById("info").innerHTML = "Good news, <b>" + streamerName + "</b>! Seems like someone just raided your channel currently, which made your statistics extremely rise up like a mountain! All i have to say is congratulations! Keep it up!"
+    document.getElementById("info").innerHTML = "Good news, <sn>" + streamerName + "</sn>! Seems like someone just raided your channel currently, which made your statistics extremely rise up like a mountain! All i have to say is congratulations! Keep it up!"
 }
-
-// Console logs (for debug purposes)
-console.log("This is a console log just in case if it works perfectly, thank you!")
