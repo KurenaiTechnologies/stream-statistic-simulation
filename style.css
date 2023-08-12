@@ -2,27 +2,58 @@ body {
     background-color: #FFFFFF;
     text-align: center;
     font-size: 15pt;
+    font-family: "Roboto";
+    margin: 0px;
+}
+#h1 {
     font-family: "Roobert";
+    margin: 8px;
+}
+sn {
+    animation: colorfade 2.5s infinite alternate linear;
+    background-color: #6441A5;
+    padding: 2px;
+    border-radius: 2px;
 }
 hr {
     opacity: 0;
 }
+header {
+    margin: 0px;
+    height: 65px;
+    position: sticky;
+    top: 0px;
+    position: -webkit-sticky;
+    background-color: #772CE8;
+    border-bottom: 2px solid #6441A5;
+}
+footer {
+    margin: 0px;
+    height: fit-content;
+    position: sticky;
+    position: -webkit-sticky;
+    bottom: 0px;
+    background-color: #FFFFFF;
+    border-top: 2px solid #DDDDDD;
+}
 #container {
-    width: 100%;
+    font-family: "Roobert";
+    width: 95%;
     height: 300px;
     overflow-x: auto;
     overflow-y: auto;
     border: 2px solid #000000;
     border-radius: 25px;
+    margin: 8px;
 }
 #container div {
     width: 46%;
     height: 150px;
     display: block;
     font-family: "Fredoka";
-    background-color: #6441A5;
+    background-color: #DDDDDD;
     padding-bottom: 10px;
-    color: #FFFFFF;
+    color: #000000;
     border-radius: 20px;
     margin: 2%
 }
@@ -31,42 +62,32 @@ hr {
     padding: 10px;
 }
 #container-2 {
+    font-family: "Fredoka";
     text-align: left;
     background-color: #B9A3E3;
     border-radius: 20px;
+    margin: 8px;
 }
 #container-2 p {
-    margin: 10%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-#container-2 h2 {
-    margin: 10%;
-    padding-top: 10px;
-    padding-bottom: 2px;
+    padding: 2px;
 }
 #container-2 span {
-    font-family: "Fredoka";
     font-weight: 1000;
 }
 #container-3 {
     font-family: "Fredoka";
     background-color: #DDDDDD;
-    border-radius: 25px;
     text-align: left;
+    margin-bottom: 0px;
 }
 #container-3 h3, p {
     margin: 2%;
-}
-#container-3 p {
-    padding-bottom: 5px;
 }
 #container-3 hr {
     opacity: 0;
 }
 #container-3 img {
-    width: 95%;
-    border-radius: 10px;
+    width: 100%;
     display: block;
     margin: auto;
 }
@@ -78,7 +99,7 @@ hr {
     width: 100%;
 }
 #viewers {
-    background-color: #FF4444;
+    background-color: #FF4444DD;
     top: 8px;
     right: 16px;
     position: absolute;
@@ -88,7 +109,7 @@ hr {
     padding: 5px;
 }
 #timedisplay {
-    background-color: #000000;
+    background-color: #000000DD;
     bottom: 8px;
     left: 16px;
     position: absolute;
@@ -98,7 +119,7 @@ hr {
     padding: 5px;
 }
 #livelabel {
-    background-color: #FF4444;
+    background-color: #FF4444DD;
     bottom: 8px;
     right: 16px;
     position: absolute;
@@ -131,11 +152,59 @@ hr {
 #subrevenue {
     float: right;
 }
+#left {
+    height: 50px;
+    float: left;
+}
+#right {
+    height: 45px;
+    float: right;
+}
+#header img {
+    margin: 8px;
+}
+#info {
+    padding: 2.5px;
+}
+#ko-fi {
+    width: 95%;
+    margin: auto;
+    display: block;
+}
+#funfacts {
+    margin: 8px;
+    text-align: center;
+}
+#secrettext {
+    animation: colorfade 2.5s infinite alternate linear;
+}
 @font-face {
     font-family: "Roobert";
     src: url(fonts/Roobert-Regular.ttf);
 }
 @font-face {
+    font-family: "Roboto";
+    src: url(fonts/Roboto-Regular.ttf);
+}
+@font-face {
     font-family: "Fredoka";
     src: url(fonts/fredoka.ttf);
+}
+@keyframes colorfade {
+    0% {
+        color: rgb(255, 0, 170);
+        text-shadow: 0px 2px 10px rgb(255, 99, 195);
+    }
+    33% {
+        color: rgb(94, 123, 253);
+        text-shadow: 0px 2px 10px rgb(94, 150, 253);
+    }
+    66% {
+        color: rgb(26, 204, 136);
+        text-shadow: 0px 2px 10px rgb(72, 184, 141);
+    }
+    100% {
+        color: rgb(255, 104, 34);
+        text-shadow: 0px 2px 10px rgb(255, 133, 95);
+    }
 }

@@ -8,8 +8,12 @@
     <title>Stream Stats Simulation</title>
 </head>
 <body onload="startTime(), streamSetup()">
-    <h1>Current Stream Info</h1>
-    <p>a simulation, yes.</p>
+    <header id="header">
+        <img src="medias/twitchlogo.png" id="left">
+        <img src="medias/twitchnamelogo.png" id="right">
+    </header>
+    <h1 id="h1">Current Stream Info</h1>
+    <p>yes, this is just a simulation</p>
     <hr>
     <div id="container">
         <h2>Detailed Statistics</h2>
@@ -24,7 +28,7 @@
         <hr>
         <div id="time">
             <p><b>Stream Time</b></p>
-            <p><span id="totaltime">NaN</span> seconds</p>
+            <p><span id="totaltime">NaN</span></p>
         </div>
         <div id="revenue">
             <p><b>Total Revenue</b></p>
@@ -48,6 +52,10 @@
             <p><b>Sub Revenue Per Second</b></p>
             <p>$<span id="totalsubrevenue">NaN</span></p>
         </div>
+        <hr>
+        <h2 id="secrettext" onclick="window.location.href='/secret.html'">
+            congrats, you found this secret text, try clicking me
+        </h2>
     </div>
     <hr>
     <div id="container-2">
@@ -56,12 +64,9 @@
             Getting latest stream info.... Please wait...
         </p>
         <hr>
-        <h2>Fun Facts</h2>
+        <h2 id="funfacts">Fun Facts</h2>
         <p>
             You just opened this page <span id="overalltime">NaN</span> seconds ago
-        </p>
-        <p>
-            The time right now is <span id="digital">00:00:00</span>
         </p>
         <p>
             Your outputs will appear if you prompt a short paragraph, or even a phrase
@@ -69,6 +74,21 @@
         <p>
             Over time, your statistics will go up
         </p>
+        <p>
+            This webpage is actually not similar to twitch.
+        </p>
+        <p>
+            This was made for 5 days in total
+        </p>
+        <p>
+            This only works for mobile
+        </p>
+        <p>
+            in case if you wanna support this project, please click the button below
+        </p>
+        <a href="https://ko-fi.com/paytouse1774">
+            <img src="medias/ko-fi.png" id="ko-fi">
+        </a>
         <hr>
     </div>
     <div id="container-3">
@@ -91,6 +111,9 @@
         <p id="streamerName">NaN</p>
         <hr>
     </div>
-    <p>Louie Kurenai @ 2023</p>
+    <footer id="footer">
+        <p>Kurenai Technologies @ 2023</p>
+        <p id="digital">00:00:00</p>
+    </footer>
 </body>
 </html>
