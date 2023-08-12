@@ -1,13 +1,5 @@
 # Streamer Stats Simulation
 
-![GitHub repo size](https://img.shields.io/github/repo-size/LKTechnologies/stream-statistic-simulation?style=flat-square)
-![GitHub contributors](https://img.shields.io/github/contributors/LKTechnologies/stream-statistic-simulation?style=flat-square)
-![GitHub deployments](https://img.shields.io/github/deployments/LKTechnologies/stream-statistic-simulation/github-pages?style=flat-square)
-![GitHub issues](https://img.shields.io/github/issues/LKTechnologies/stream-statistic-simulation?style=flat-square)
-![GitHub forks](https://img.shields.io/github/forks/LKTechnologies/stream-statistic-simulation?style=flat-square)
-
-
-
 imagine and experience how famous you are, but every second your stats rise up over time.
 
 # Story
@@ -22,15 +14,17 @@ frequently asked questions.
 
 I got inspired by Roblox's Streamer Simulator due to it's game mechanics. So i decided to get some basic ideas for the release in the future.
 
-### How long would it take you to make this?
+Although the mechanics are kind of complicated, so instead of doing the process yourself, you'll just wait until you see how many viewers or stuff you can get.
 
-about 5 hours, because i was figuring out how some of the functions work
+## How does this exactly work?
 
-### How does this exactly work?
+just wait, also there's no shop.
 
-just type what you want to type, and afterwards, scroll below so that you can see the outputs you had entered. one more mechanic, the stats increase over time, *imagine screenshotting the personal record*
+## Does this save?
 
-### How did you make this?
+on the way to making a saving function.
+
+### How did i make this?
 
 I used visual studio code as my editor for coding with programming languages, like for example, **css, javascript, and html** as mentioned.
 
@@ -40,19 +34,27 @@ Actually, no... only available in mobile browsers, not suitable for pc browsers.
 
 ### What is the game or simulation's version?
 
-Beta v1.1
+Beta v1.3
 
 ### Does it frequently get any updates?
 
 yes, whenever i changed, added, or plan to do something to it.
 
+### Is this project private?
+
+yes, you can dm me to get it, but only in discord: paytouse
+
 ### Is it open source?
 
 yes. any code can be edited.
 
+### Can i make it publicly visible to anyone?
+
+no, unless you give credits.
+
 ### Can i promote this?
 
-yes you can
+yes, but please give some credits
 
 ### Who mainly created the project?
 
@@ -65,14 +67,3 @@ no one but one person.
 ### Is the thumbnail customizable?
 
 since the project is open source, you can change it.
-
-### Who's in the thumbnail? 
-
-what a stupid question but, it's just an osu! top player named **mrekk** playing casually
-
-### Can i clone or fork this project?
-
-yes you can! if you want to clone this project, pleas execute this code to your terminal:
-```
-git clone https://github.com/LKTechnologies/stream-statistic-simulation
-```

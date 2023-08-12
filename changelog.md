@@ -2,7 +2,13 @@
 
 logs of past changes made to the project
 
-Last Updated: August 5, 2023
+Last Updated: August 13, 2023
+
+## Beta v1.3
+
+Changes:
+
+- Added two assets for `maintenance`
 
 ## Beta v1.2
 
@@ -23,7 +29,7 @@ Changes:
 
 ## Beta v1.1
 
-Additions:
+Changes:
 
 - Added a new stream component: Subscribers
 
