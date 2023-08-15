@@ -4,6 +4,19 @@ logs of past changes made to the project
 
 Last Updated: August 13, 2023
 
+## Beta v1.4
+
+Changes:
+
+- Overhauled the clock in the footer
+- Added the introduction section
+- Changed the values higher
+- Overhauled the stream preview
+- Changed some texts in the footer
+- Changed the text in the stream time in the stream statistics section
+- Added new assets
+- Added something in the bottom of the stream preview
+
 ## Beta v1.3
 
 Changes:

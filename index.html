@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Stream Stats Simulation</title>
 </head>
-<body onload="startTime(), streamSetup()">
+<body onload="getDateToday(), streamSetup()">
     <header id="header">
         <img src="medias/twitchlogo.png" id="left">
         <img src="medias/twitchnamelogo.png" id="right">
@@ -15,20 +15,31 @@
     <h1 id="h1">Current Stream Info</h1>
     <p>yes, this is just a simulation</p>
     <hr>
+    <h2 id="introheader">Introduction</h2>
+    <p id="introp">
+        This is just an afk (Away from Keyboard) simulation. <i>Now you might ask yourself,</i> what does this exactly do? The real purpose of this is just to simulate how famous you currently are.
+    </p>
+    <p id="introp1">
+        Over time, your statistics increase, but the longer you stay in the page, the more the stats you have. The main problem is that it doesn't save, so in the future updates, we'll develop the saving function over time.
+    </p>
+    <p id="fyi">
+        Oh yeah, i have to tell you something, because, for your information, the ui of this webpage is literally not similar to <sn id="twitch">Twitch</sn>, and also, read the readme of the project, thank you, have fun.
+    </p>
+    <hr>
     <div id="container">
         <h2>Detailed Statistics</h2>
         <div id="views">
             <p><b>Viewers</b></p>
-            <p id="viewcount">NaN</p>
+            <p id="viewcount">NaN people</p>
         </div>
         <div id="totalviews">
             <p><b>Total Views</b></p>
-            <p id="overallviews">NaN</p>
+            <p id="overallviews">NaN views</p>
         </div>
         <hr>
         <div id="time">
             <p><b>Stream Time</b></p>
-            <p><span id="totaltime">NaN</span></p>
+            <p><span id="totaltime">NaN mimutes</span></p>
         </div>
         <div id="revenue">
             <p><b>Total Revenue</b></p>
@@ -37,25 +48,26 @@
         <hr>
         <div id="messages">
             <p><b>Total Stream Messages</b></p>
-            <p id="totalmessages">NaN</p>
+            <p id="totalmessages">NaN messages</p>
         </div>
         <div id="followers">
             <p><b>New Followers</b></p>
-            <p id="totalfollowers">NaN</p>
+            <p id="totalfollowers">NaN followers</p>
         </div>
         <hr>
         <div id="subs">
-            <p><b>New Subs</b></p>
-            <p id="totalsubs">NaN</p>
+            <p><b>New Subscribers</b></p>
+            <p id="totalsubs">NaN subscribers</p>
         </div>
         <div id="subrevenue">
-            <p><b>Sub Revenue Per Second</b></p>
-            <p>$<span id="totalsubrevenue">NaN</span></p>
+            <p><b>Subscriber Revenue Per Second</b></p>
+            <p>$<span id="totalsubrevenue">NaN per revenue</span></p>
         </div>
         <hr>
-        <h2 id="secrettext" onclick="window.location.href='/secret.html'">
-            congrats, you found this secret text, try clicking me
-        </h2>
+        <a id="secrettext" href="/secret.html">
+            hello, this is a secret text, congratulations for finding this, why not click me for a special reward?
+        </a>
+        <hr>
     </div>
     <hr>
     <div id="container-2">
@@ -97,7 +109,7 @@
         <div id="thumbnail">
             <img src="medias/thumbnail1.jpg">
             <div id="viewers">
-                NaN Watching
+                NaN viewers are watching
             </div>
             <div id="timedisplay">
                 00:00
@@ -111,9 +123,16 @@
         <p id="streamerName">NaN</p>
         <hr>
     </div>
+    <div id="sourcecode">
+        <a href="https://github.com/KurenaiTechnologies/stream-statistic-simulation">
+            <img src="medias/github.svg" id="githublogo">
+            <img src="medias/github.png" id="githubinvertocat">
+        </a>
+    </div>
     <footer id="footer">
-        <p>Kurenai Technologies @ 2023</p>
-        <p id="digital">00:00:00</p>
+        <p>Kurenai Tech. @ 2023</p>
+        <p>Version Beta v1.4</p>
+        <p id="realtimedate">January 1, 1970, 00:00:00, Thursday</p>
     </footer>
 </body>
 </html>

@@ -5,9 +5,8 @@ body {
     font-family: "Roboto";
     margin: 0px;
 }
-#h1 {
-    font-family: "Roobert";
-    margin: 8px;
+a {
+    text-decoration: none;
 }
 sn {
     animation: colorfade 2.5s infinite alternate linear;
@@ -36,10 +35,38 @@ footer {
     background-color: #FFFFFF;
     border-top: 2px solid #DDDDDD;
 }
+#h1 {
+    font-family: "Roobert";
+    margin: 8px;
+}
+#introheader {
+    font-family: "Roobert";
+}
+#introp {
+    text-align: justify;
+    text-justify: inter-word;
+    margin: 8px;
+}
+#introp1 {
+    text-align: justify;
+    text-justify: inter-word;
+    margin: 8px;
+}
+#fyi {
+    font-style: italic;
+    text-align: justify;
+    text-justify: inter-word;
+    margin: 8px;
+}
+#twitch {
+    background-color: #00000000;
+    text-decoration: underline;
+    padding: 0px;
+}
 #container {
     font-family: "Roobert";
     width: 95%;
-    height: 300px;
+    height: 325px;
     overflow-x: auto;
     overflow-y: auto;
     border: 2px solid #000000;
@@ -123,7 +150,7 @@ footer {
     bottom: 8px;
     right: 16px;
     position: absolute;
-    font-family: "Roobert";
+    font-family: "Roboto";
     color: #FFFFFF;
     border-radius: 100px;
     padding: 5px;
@@ -177,6 +204,24 @@ footer {
 }
 #secrettext {
     animation: colorfade 2.5s infinite alternate linear;
+}
+#save {
+    width: 150px;
+    height: 75px;
+    font-size: 15pt;
+    color: #FFFFFF;
+    background-color: #772CE8;
+    border: 2px solid #6441A5;
+    border-radius: 10px;
+}
+#savetext {
+    font-family: "Fredoka";
+}
+#githublogo {
+    height: 50px;
+}
+#githubinvertocat {
+    height: 50px;
 }
 @font-face {
     font-family: "Roobert";

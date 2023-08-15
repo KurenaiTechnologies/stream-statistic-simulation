@@ -16,11 +16,11 @@ I got inspired by Roblox's Streamer Simulator due to it's game mechanics. So i d
 
 Although the mechanics are kind of complicated, so instead of doing the process yourself, you'll just wait until you see how many viewers or stuff you can get.
 
-### How does this exactly work?
+## How does this exactly work?
 
 just wait, also there's no shop.
 
-### Does this save?
+## Does this save?
 
 on the way to making a saving function.
 
