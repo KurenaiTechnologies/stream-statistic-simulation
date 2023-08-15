@@ -34,7 +34,7 @@ Actually, no... only available in mobile browsers, not suitable for pc browsers.
 
 ### What is the game or simulation's version?
 
-Beta v1.3
+Beta v1.4
 
 ### Does it frequently get any updates?
 
